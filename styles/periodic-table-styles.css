@@ -318,3 +318,17 @@ Pure Aesthetics
     box-shadow: 0 .5px rgb(231, 231, 231);
     transform: translateY(4px);
 }
+
+::-webkit-scrollbar {
+    width:10px;
+        height:10px;
+}
+::-webkit-scrollbar-track {
+    background: white;
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(204,62,68, .5);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #CC3E44;
+}
